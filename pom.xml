@@ -189,8 +189,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${maven-compiler-plugin.version}</version>
                 <configuration>
-                    <source>15</source>
-                    <target>15</target>
+                    <source>16</source>
+                    <target>16</target>
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
@@ -212,7 +212,7 @@
                 <artifactId>maven-pmd-plugin</artifactId>
                 <version>3.14.0</version>
                 <configuration>
-                    <targetJdk>15</targetJdk>
+                    <targetJdk>16</targetJdk>
                     <failurePriority>1</failurePriority><!-- 5 means fail even on the lowest priority, 0 means never fail -->
                     <rulesets>
                         <!--suppress UnresolvedMavenProperty -->
